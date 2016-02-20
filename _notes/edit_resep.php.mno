@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_edit_resep" value="name:no_resep;datatype:string,name:no_pemeriksaan;datatype:string,name:kode_obat;datatype:string,name:dosis;datatype:blob,name:jumlah;datatype:real" />
+	<infoitem key="UD_edit_pemeriksaan" value="name:no_pemeriksaan;datatype:string,name:no_pendaftaran;datatype:string,name:keluhan;datatype:string,name:diagnosa;datatype:string,name:perawatan;datatype:string,name:tindakan;datatype:string,name:berat_badan;datatype:real,name:tensi_diastolik;datatype:int,name:tensi_sistolik;datatype:int" />
+	<infoitem key="UD_edit_obat" value="name:kode_obat;datatype:string,name:nama_obat;datatype:blob,name:merk;datatype:blob,name:satuan;datatype:blob,name:harga_jual;datatype:real" />
+</info>

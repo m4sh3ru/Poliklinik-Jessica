@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_cetak_laporan" value="name:no_pemeriksaan;datatype:string,name:no_pas;datatype:string,name:nama_pas;datatype:blob,name:alamat_pas;datatype:blob,name:tgl_lhr;datatype:date,name:jenis_kel;datatype:string,name:keluhan;datatype:string,name:diagnosa;datatype:string,name:perawatan;datatype:string,name:tindakan;datatype:string,name:berat_badan;datatype:real,name:tensi_diastolik;datatype:int,name:tensi_sistolik;datatype:int" />
+</info>

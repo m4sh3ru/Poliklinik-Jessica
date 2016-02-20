@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_pendaftaran" value="name:no_pendaftaran;datatype:string,name:no_pas;datatype:string,name:nip;datatype:string,name:kode_jadwal;datatype:string,name:id_jenisbiaya;datatype:string,name:tgl_pendaftaran;datatype:datetime,name:no_urut;datatype:int" />
+	<infoitem key="UD_pasien" value="name:no_pas;datatype:string,name:nama_pas;datatype:blob,name:alamat_pas;datatype:blob,name:tlp_pas;datatype:blob,name:tgl_lhr;datatype:date,name:jenis_kel;datatype:string,name:tgl_registrasi;datatype:date" />
+	<infoitem key="UD_pemeriksaan" value="name:no_pemeriksaan;datatype:string,name:no_pendaftaran;datatype:string,name:keluhan;datatype:string,name:diagnosa;datatype:string,name:perawatan;datatype:string,name:tindakan;datatype:string,name:berat_badan;datatype:real,name:tensi_diastolik;datatype:int,name:tensi_sistolik;datatype:int" />
+	<infoitem key="UD_biaya" value="name:id_jenisbiaya;datatype:string,name:nama_biaya;datatype:blob,name:tarif;datatype:real" />
+	<infoitem key="UD_pegawai" value="name:nip;datatype:string,name:nama_peg;datatype:blob,name:almt_peg;datatype:blob,name:telpn_peg;datatype:blob,name:tgl_lhr;datatype:date,name:jenis_kel;datatype:string" />
+	<infoitem key="UD_jadwal" value="name:kode_jadwal;datatype:string,name:kode_dokter;datatype:string,name:hari;datatype:blob,name:jam_mulai;datatype:time,name:jam_selesai;datatype:time" />
+</info>

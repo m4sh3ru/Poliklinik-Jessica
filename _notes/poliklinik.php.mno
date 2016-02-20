@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_poliklinik" value="name:kode_poli;datatype:string,name:nama_poli;datatype:blob" />
+</info>

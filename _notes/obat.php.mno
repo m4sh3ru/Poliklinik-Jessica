@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_obat" value="name:kode_obat;datatype:string,name:nama_obat;datatype:blob,name:merk;datatype:blob,name:satuan;datatype:blob,name:harga_jual;datatype:real" />
+	<infoitem key="UD_resep" value="name:no_resep;datatype:string,name:no_pemeriksaan;datatype:string,name:dosis;datatype:blob,name:jumlah;datatype:real" />
+</info>

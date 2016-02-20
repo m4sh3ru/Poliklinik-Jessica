@@ -1,0 +1,12 @@
+placeholder="00:00:00"
+
+
+
+//membuat nomor pasien otomatis
+$qry="SELECT COUNT(*) AS tambah FROM pasien";
+$no_pasien=mysql_query($qry) or die(mysql_error());
+$row_no_pasien=mysql_fetch_assoc($no_pasien);
+$urutan=$row_no_pasien['tambah']+1;
+
+
+<?php echo "PSN-00".$urutan; ?>

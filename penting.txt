@@ -1,0 +1,53 @@
+<?php
+if (isset($_GET['page'])) {
+     $get=htmlentities($_GET['page']);
+     $page=$get.".php";
+     $cek=strlen($page);
+
+     if($cek<=0 || !file_exists($page) || empty($page)) {
+                  echo  “Halaman yang dicari tidak ada”; ; }
+     else {
+                   include ("file.php")}
+}
+?>
+
+?page=edit_jadwal&nip=
+
+
+
+class="round default-width-input"
+
+class="button round blue image-right ic-edit text-upper">Edit
+class="button round blue image-right ic-delete text-upper">Delete
+
+
+
+ ?><script language="javascript">
+  alert("Data Berhasil Diubah!");
+  document.location.href='?page=pegawai'  
+  </script> <?php
+
+ ?><script language="javascript">document.location.href='?page=pegawai'</script> <?php
+
+class="button round blue image-right ic-print text-upper">Print
+class="round blue ic-right-arrow"
+
+
+
+
+<?php require_once('Connections/koneksi.php'); ?>
+<?php
+if (isset($_GET['nip'])) { 
+mysql_select_db($database_koneksi, $koneksi);
+$nip=$_GET['nip'];
+$qry="DELETE FROM pegawai WHERE nip='$nip'";
+$del=mysql_query($qry) or die(mysql_error());
+ // header(sprintf("Location: %s", $deleteGoTo));
+ ?><script language="javascript">document.location.href='?page=pegawai'</script> <?php
+}
+?>
+
+
+
+
+onclick="return confirm('Anda yakin menghapus data ini ?')"

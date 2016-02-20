@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_edit_pegawai" value="name:nip;datatype:string,name:nama_peg;datatype:blob,name:almt_peg;datatype:blob,name:telpn_peg;datatype:blob,name:tgl_lhr;datatype:date,name:jenis_kel;datatype:string" />
+</info>

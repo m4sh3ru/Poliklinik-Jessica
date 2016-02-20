@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_jadwal" value="name:kode_jadwal;datatype:string,name:kode_dokter;datatype:string,name:hari;datatype:blob,name:jam_mulai;datatype:time,name:jam_selesai;datatype:time" />
+	<infoitem key="UD_dokter" value="name:kode_dokter;datatype:string,name:kode_poli;datatype:string,name:nama_dokter;datatype:blob,name:alamat_dokter;datatype:blob,name:telpn_dokter;datatype:blob" />
+</info>

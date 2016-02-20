@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_resep" value="name:no_resep;datatype:string,name:no_pemeriksaan;datatype:string,name:no_pas;datatype:string,name:nama_pas;datatype:blob,name:merk;datatype:blob,name:dosis;datatype:blob,name:jumlah;datatype:real" />
+</info>

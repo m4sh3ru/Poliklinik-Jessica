@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_biaya" value="name:id_jenisbiaya;datatype:string,name:nama_biaya;datatype:blob,name:tarif;datatype:real" />
+</info>

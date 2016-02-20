@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_edit_pas" value="name:no_pas;datatype:string,name:nama_pas;datatype:blob,name:alamat_pas;datatype:blob,name:tlp_pas;datatype:blob,name:tgl_lhr;datatype:date,name:jenis_kel;datatype:string,name:tgl_registrasi;datatype:date" />
+</info>
